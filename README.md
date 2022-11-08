@@ -39,8 +39,8 @@ Executed following commands:
 #sudo insmod ./cmpe283-1.ko
 #sudo dmesg
 
-Screenshots of Output
+** Screenshots of Output
 
-!(img1.png)
-!(img2.png)
-!(img3.png)
+![Screenshot 1](img1.png)
+![Screenshot 2](img2.png)
+![Screenshot 3](img3.png)
