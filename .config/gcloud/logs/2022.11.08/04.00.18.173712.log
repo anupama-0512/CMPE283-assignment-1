@@ -1,0 +1,32 @@
+2022-11-08 04:00:18,190 DEBUG    root            Loaded Command Group: ['gcloud', 'compute']
+2022-11-08 04:00:18,193 DEBUG    root            Loaded Command Group: ['gcloud', 'compute', 'instances']
+2022-11-08 04:00:18,208 DEBUG    root            Loaded Command Group: ['gcloud', 'compute', 'instances', 'update_from_file']
+2022-11-08 04:00:18,214 DEBUG    root            Running [gcloud.compute.instances.update-from-file] with arguments: [--most-disruptive-allowed-action: "RESTART", --source: "cmpe283.yaml", --zone: "us-central1-a", INSTANCE_NAME: "instance-5"]
+2022-11-08 04:00:18,219 DEBUG    google.auth.transport.requests Making request: GET http://metadata.google.internal/computeMetadata/v1/instance/service-accounts/1079406743904-compute@developer.gserviceaccount.com/?recursive=true
+2022-11-08 04:00:18,221 DEBUG    urllib3.connectionpool Starting new HTTP connection (1): metadata.google.internal:80
+2022-11-08 04:00:18,222 DEBUG    urllib3.connectionpool http://metadata.google.internal:80 "GET /computeMetadata/v1/instance/service-accounts/1079406743904-compute@developer.gserviceaccount.com/?recursive=true HTTP/1.1" 200 142
+2022-11-08 04:00:18,222 DEBUG    google.auth.transport.requests Making request: GET http://metadata.google.internal/computeMetadata/v1/instance/service-accounts/1079406743904-compute@developer.gserviceaccount.com/token
+2022-11-08 04:00:18,224 DEBUG    urllib3.connectionpool http://metadata.google.internal:80 "GET /computeMetadata/v1/instance/service-accounts/1079406743904-compute@developer.gserviceaccount.com/token HTTP/1.1" 200 266
+2022-11-08 04:00:18,242 DEBUG    google.auth.transport.requests Making request: GET http://metadata.google.internal/computeMetadata/v1/instance/service-accounts/1079406743904-compute@developer.gserviceaccount.com/?recursive=true
+2022-11-08 04:00:18,243 DEBUG    urllib3.connectionpool Starting new HTTP connection (1): metadata.google.internal:80
+2022-11-08 04:00:18,244 DEBUG    urllib3.connectionpool http://metadata.google.internal:80 "GET /computeMetadata/v1/instance/service-accounts/1079406743904-compute@developer.gserviceaccount.com/?recursive=true HTTP/1.1" 200 142
+2022-11-08 04:00:18,245 DEBUG    google.auth.transport.requests Making request: GET http://metadata.google.internal/computeMetadata/v1/instance/service-accounts/1079406743904-compute@developer.gserviceaccount.com/token
+2022-11-08 04:00:18,246 DEBUG    urllib3.connectionpool http://metadata.google.internal:80 "GET /computeMetadata/v1/instance/service-accounts/1079406743904-compute@developer.gserviceaccount.com/token HTTP/1.1" 200 266
+2022-11-08 04:00:18,629 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): compute.googleapis.com:443
+2022-11-08 04:00:19,656 DEBUG    urllib3.connectionpool https://compute.googleapis.com:443 "POST /batch/compute/v1 HTTP/1.1" 200 None
+2022-11-08 04:00:19,659 DEBUG    root            Operations to inspect: [<Operation
+ id: 6640846958443653820
+ insertTime: '2022-11-07T20:00:19.542-08:00'
+ kind: 'compute#operation'
+ name: 'operation-1667880018664-5eced940a5c26-e6eb34c5-fe171d54'
+ operationType: 'update'
+ progress: 0
+ selfLink: 'https://www.googleapis.com/compute/v1/projects/silent-vim-348406/zones/us-central1-a/operations/operation-1667880018664-5eced940a5c26-e6eb34c5-fe171d54'
+ startTime: '2022-11-07T20:00:19.566-08:00'
+ status: StatusValueValuesEnum(RUNNING, 2)
+ targetId: 1770161333892050394
+ targetLink: 'https://www.googleapis.com/compute/v1/projects/silent-vim-348406/zones/us-central1-a/instances/instance-5'
+ user: '1079406743904-compute@developer.gserviceaccount.com'
+ warnings: []
+ zone: 'https://www.googleapis.com/compute/v1/projects/silent-vim-348406/zones/us-central1-a'>]
+2022-11-08 04:00:19,662 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): compute.googleapis.com:443
