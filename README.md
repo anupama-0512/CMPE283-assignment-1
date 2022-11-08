@@ -1,8 +1,8 @@
-#CMPE283-assignment 1
+# CMPE283-assignment 1
 
-#Discovering VMX Features
+# Discovering VMX Features
 
-Anupama Ponukumati
+## Anupama Ponukumati
 
 Created vm using gcp UI with machine configuration as :
 Machine type n2-standard-2
@@ -41,6 +41,6 @@ Executed following commands:
 
 Screenshots of Output
 
-![img1.png]
-![img2.png]
-![img3.png]
+!(img1.png)
+!(img2.png)
+!(img3.png)
